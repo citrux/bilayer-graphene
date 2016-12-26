@@ -14,7 +14,7 @@
 #define Vy ( py*(1 + band * 0.5f * delta32 / sqrt(delta24 + delta32 * p2r)) / Eps )
 #define Fx ( Exc + Ex*cos(wx*t) + H*vy )
 #define Fy ( Eyc + Ey*cos(wy*t - phi) - H*vx )
-#define Value ( vx*Fx+vy*Fy )
+#define Value ( vy )
 
 #define SQR(x) ((x) * (x))
 #define pi ( 3.14159265f )
@@ -110,7 +110,7 @@ seed )
     float Ey2 = SQR(Ey);
     float ExEy = Ex * Ey;
     float gamma2 = 2 * delta22;
-    float gamma4 = SQR(gamma2)
+    float gamma4 = SQR(gamma2);
     float delta = sqrt(delta12-delta22);
 
     while( t < all_time ){
@@ -118,7 +118,9 @@ seed )
         py += Fy*dt;
         t += dt;
 
-        p2r = px*px + py*py;
+        float px2 = px*px;
+        float py2 = py*py;
+        p2r = px2+py2;
         vx = Vx;
         vy = Vy;
         value += Value*dt;
@@ -143,8 +145,8 @@ seed )
 
         float B = (p2r - 4*delta*delta) / e1pd / e2md /e2pd;
         float B2 = B * B;
-        w[4] = (
-            gamma4 * (
+        w[4] = wlr_max * (
+            gamma4 / wx / wx  * (
                 A12*(Ex2+Ey2-2*valley*ExEy*sin(phi))+
                 A22*(Ex2+Ey2+2*valley*ExEy*sin(phi))+
                 2*A1*A2*((Ex2-Ey2)*(px2-py2)/(px2+py2) +
