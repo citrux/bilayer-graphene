@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     57271,       1272]
-NotebookOptionsPosition[     55518,       1208]
-NotebookOutlinePosition[     56272,       1238]
-CellTagsIndexPosition[     56200,       1233]
+NotebookDataLength[     57763,       1286]
+NotebookOptionsPosition[     56015,       1222]
+NotebookOutlinePosition[     56763,       1252]
+CellTagsIndexPosition[     56691,       1247]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -663,12 +663,25 @@ Cell[BoxData[{
       SubscriptBox["\[CapitalDelta]", "3"], "*)"}], "\[IndentingNewLine]", 
      RowBox[{
       RowBox[{"params", "[", 
-       RowBox[{"[", "17", "]"}], "]"}], "=", "1"}], ";", 
-     RowBox[{"(*", "all_time", "*)"}], "\[IndentingNewLine]", 
+       RowBox[{"[", "17", "]"}], "]"}], "=", 
+      RowBox[{"Min", "[", 
+       RowBox[{
+        RowBox[{"0.1", "/", 
+         RowBox[{"Max", "[", 
+          RowBox[{"params", "[", 
+           RowBox[{"[", 
+            RowBox[{"1", ";;", "5"}], "]"}], "]"}], "]"}]}], ",", " ", 
+        RowBox[{"0.1", "/", 
+         RowBox[{"params", "[", 
+          RowBox[{"[", "6", "]"}], "]"}]}]}], "]"}]}], ";", 
+     RowBox[{"(*", "step_time", "*)"}], "\[IndentingNewLine]", 
      RowBox[{
       RowBox[{"params", "[", 
-       RowBox[{"[", "18", "]"}], "]"}], "=", "0.00005"}], ";", 
-     RowBox[{"(*", "step_time", "*)"}], "\[IndentingNewLine]", 
+       RowBox[{"[", "18", "]"}], "]"}], "=", 
+      RowBox[{"1000", " ", "*", " ", 
+       RowBox[{"params", "[", 
+        RowBox[{"[", "17", "]"}], "]"}]}]}], ";", 
+     RowBox[{"(*", "all_time", "*)"}], "\[IndentingNewLine]", 
      RowBox[{
       RowBox[{"params", "[", 
        RowBox[{"[", "19", "]"}], "]"}], "=", 
@@ -913,11 +926,12 @@ Cell[BoxData[{
    3.690508895338458*^9}, {3.6905089369437313`*^9, 3.6905089423101406`*^9}, {
    3.690509957466324*^9, 3.690509957653524*^9}, 3.6905100389296665`*^9, 
    3.6905102466596317`*^9, {3.6905103484966106`*^9, 3.6905103774814615`*^9}, 
-   3.6905116210597825`*^9, {3.690512332998233*^9, 3.690512347303458*^9}}],
+   3.6905116210597825`*^9, {3.690512332998233*^9, 3.690512347303458*^9}, {
+   3.691709376015332*^9, 3.69170947744781*^9}}],
 
 Cell[BoxData[
  DynamicBox[ToBoxes[$CellContext`IterMessage, StandardForm],
-  ImageSizeCache->{88., {3., 9.}}]], "Output",
+  ImageSizeCache->{110., {3., 12.}}]], "Output",
  CellChangeTimes->{{3.689072498368964*^9, 3.6890725266615825`*^9}, 
    3.689311441911558*^9, 3.6893115091476765`*^9, 3.689311540831332*^9, 
    3.6893124874721947`*^9, 3.689312520653453*^9, 3.6893126273108406`*^9, 
@@ -1207,9 +1221,9 @@ CzS+bbAHAKOKZKg=
 }, Open  ]]
 },
 WindowSize->{823, 637},
-WindowMargins->{{-7, Automatic}, {Automatic, 0}},
+WindowMargins->{{Automatic, 34}, {Automatic, 102}},
 Magnification:>1.1 Inherited,
-FrontEndVersion->"11.0 for Microsoft Windows (64-bit) (July 28, 2016)",
+FrontEndVersion->"11.0 for Linux x86 (64-bit) (July 28, 2016)",
 StyleDefinitions->"Default.nb"
 ]
 (* End of Notebook Content *)
@@ -1218,61 +1232,61 @@ StyleDefinitions->"Default.nb"
 (*CellTagsOutline
 CellTagsIndex->{
  "RNG Test"->{
-  Cell[6107, 106, 2419, 55, 166, "Input",
+  Cell[6107, 106, 2419, 55, 204, "Input",
    CellTags->"RNG Test"],
-  Cell[8529, 163, 744, 11, 43, "Print",
+  Cell[8529, 163, 744, 11, 48, "Print",
    CellTags->"RNG Test"],
-  Cell[9276, 176, 769, 11, 33, "Output",
+  Cell[9276, 176, 769, 11, 34, "Output",
    CellTags->"RNG Test"],
-  Cell[10048, 189, 771, 11, 33, "Output",
+  Cell[10048, 189, 771, 11, 34, "Output",
    CellTags->"RNG Test"],
-  Cell[10822, 202, 772, 11, 33, "Output",
+  Cell[10822, 202, 772, 11, 34, "Output",
    CellTags->"RNG Test"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"RNG Test", 55839, 1219}
+ {"RNG Test", 56330, 1233}
  }
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 196, 3, 33, "Input"],
-Cell[757, 25, 5325, 77, 78, "Input"],
+Cell[558, 20, 196, 3, 36, "Input"],
+Cell[757, 25, 5325, 77, 107, "Input"],
 Cell[CellGroupData[{
-Cell[6107, 106, 2419, 55, 166, "Input",
+Cell[6107, 106, 2419, 55, 204, "Input",
  CellTags->"RNG Test"],
-Cell[8529, 163, 744, 11, 43, "Print",
+Cell[8529, 163, 744, 11, 48, "Print",
  CellTags->"RNG Test"],
-Cell[9276, 176, 769, 11, 33, "Output",
+Cell[9276, 176, 769, 11, 34, "Output",
  CellTags->"RNG Test"],
-Cell[10048, 189, 771, 11, 33, "Output",
+Cell[10048, 189, 771, 11, 34, "Output",
  CellTags->"RNG Test"],
-Cell[10822, 202, 772, 11, 33, "Output",
+Cell[10822, 202, 772, 11, 34, "Output",
  CellTags->"RNG Test"]
 }, Open  ]],
-Cell[11609, 216, 7528, 218, 687, "Input"],
-Cell[19140, 436, 1197, 28, 168, "Input"],
-Cell[20340, 466, 2830, 62, 188, "Input"],
+Cell[11609, 216, 7528, 218, 784, "Input"],
+Cell[19140, 436, 1197, 28, 177, "Input"],
+Cell[20340, 466, 2830, 62, 236, "Input"],
 Cell[CellGroupData[{
-Cell[23195, 532, 19185, 383, 1122, "Input"],
-Cell[42383, 917, 889, 13, 36, "Output"]
+Cell[23195, 532, 19680, 397, 1273, "Input"],
+Cell[42878, 931, 891, 13, 34, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[43309, 935, 490, 12, 58, "Input"],
-Cell[43802, 949, 3625, 64, 286, "Output"]
+Cell[43806, 949, 490, 12, 60, "Input"],
+Cell[44299, 963, 3625, 64, 257, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[47464, 1018, 649, 14, 58, "Input"],
-Cell[48116, 1034, 2121, 43, 293, "Output"]
+Cell[47961, 1032, 649, 14, 60, "Input"],
+Cell[48613, 1048, 2121, 43, 265, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[50274, 1082, 445, 11, 58, "Input"],
-Cell[50722, 1095, 1861, 40, 265, "Output"]
+Cell[50771, 1096, 445, 11, 60, "Input"],
+Cell[51219, 1109, 1861, 40, 233, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[52620, 1140, 862, 21, 58, "Input"],
-Cell[53485, 1163, 2017, 42, 322, "Output"]
+Cell[53117, 1154, 862, 21, 84, "Input"],
+Cell[53982, 1177, 2017, 42, 256, "Output"]
 }, Open  ]]
 }
 ]

@@ -1,3 +1,8 @@
+/*
+ *
+ * Тут будет пояснение к коду в целом
+ * 
+ */
 #define LOWER ( -1 )
 #define UPPER ( 1 )
 
@@ -11,6 +16,7 @@
 #define Fy ( Eyc + Ey*cos(wy*t - phi) - H*vx )
 #define Value ( vx*Fx+vy*Fy )
 
+#define SQR(x) ((x) * (x))
 #define pi ( 3.14159265f )
 #define DELTA(x, width) ( (width) / pi / ((x)*(x) + (width)*(width)) )
 #define RNGInit unsigned int x1, y1, z1, w1; x1 = seed[idx]; y1 = \
@@ -18,9 +24,9 @@
 #define rand_uniform random_uniform(&x1, &y1, &z1, &w1)
 
 float random_uniform(unsigned int * x1,
-                unsigned int * y1,
-                unsigned int * z1,
-                unsigned int * w1){
+                     unsigned int * y1,
+                     unsigned int * z1,
+                     unsigned int * w1){
     unsigned int t1 = ((*x1)^((*x1)<<11));
     (*x1) = (*y1);
     (*y1) = (*z1);
@@ -61,8 +67,8 @@ seed )
     float delta1 = dev_params[13];
     float delta2 = dev_params[14];
     float delta3 = dev_params[15];
-    float all_time = dev_params[16];
-    float dt = dev_params[17];
+    float dt = dev_params[16];
+    float all_time = dev_params[17];
     float deps = dev_params[18];
 
 
@@ -98,6 +104,15 @@ seed )
     int i;
     int band = LOWER;
 
+    int valley = (idx % 2) * 2 - 1;
+
+    float Ex2 = SQR(Ex);
+    float Ey2 = SQR(Ey);
+    float ExEy = Ex * Ey;
+    float gamma2 = 2 * delta22;
+    float gamma4 = SQR(gamma2)
+    float delta = sqrt(delta12-delta22);
+
     while( t < all_time ){
         px += Fx*dt;
         py += Fy*dt;
@@ -109,16 +124,36 @@ seed )
         value += Value*dt;
         eps = Eps;
 
-        float ex = 0;
-        float ey = 0;
-        if (wx != 0) {
-            ex = Ex / wx;        	
-        }
-        if (wy != 0) {
-            ey = Ey / wy;           
-        }
-        int valley = (idx % 2) * 2 - 1;
-        w[4] = (ex*ex + ey*ey + valley*2*ex*ey*sin(phi)) * DELTA(Eps2 - Eps1 - hw, deps);
+        
+        float e1pd = Eps1 + delta;
+        float e1md = Eps1 - delta;
+        float e2pd = Eps2 + delta;
+        float e2md = Eps2 - delta;
+        
+        float e1pd2 = SQR(e1pd);
+        float e1md2 = SQR(e1md);
+        float e2pd2 = SQR(e2pd);
+        float e2md2 = SQR(e2md);
+
+        float lambda = (e1pd2-p2r)*(e2pd2-p2r)/gamma2;
+        float A1 = e1md * e1pd + lambda;
+        float A2 = e1md * (e2pd + lambda/e2md);
+        float A12 = SQR(A1);
+        float A22 = SQR(A2);
+
+        float B = (p2r - 4*delta*delta) / e1pd / e2md /e2pd;
+        float B2 = B * B;
+        w[4] = (
+            gamma4 * (
+                A12*(Ex2+Ey2-2*valley*ExEy*sin(phi))+
+                A22*(Ex2+Ey2+2*valley*ExEy*sin(phi))+
+                2*A1*A2*((Ex2-Ey2)*(px2-py2)/(px2+py2) +
+                         2 * ExEy * cos(phi) * 2 * px * py / (px2+py2))
+            ) / (
+                (gamma2*p2r*B2 * (e1pd2 + p2r) + (p2r * B2 + 1) * SQR(e1pd2-p2r))*
+                (gamma2*(e2pd2 + p2r) + (p2r / e2md2 + 1) * SQR(e2pd2-p2r))
+            )
+        ) * DELTA(e1pd - e2pd - hw, deps);
         
 
         // Scattering
