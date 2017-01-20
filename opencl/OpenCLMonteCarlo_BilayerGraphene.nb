@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     62889,       1307]
-NotebookOptionsPosition[     61092,       1242]
-NotebookOutlinePosition[     61843,       1272]
-CellTagsIndexPosition[     61771,       1267]
+NotebookDataLength[     93131,       1961]
+NotebookOptionsPosition[     88888,       1830]
+NotebookOutlinePosition[     89980,       1870]
+CellTagsIndexPosition[     89908,       1865]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -161,30 +161,71 @@ Cell[BoxData[{
    3.689068683500965*^9}, {3.6890689103307676`*^9, 3.689068936929821*^9}},
  CellTags->"RNG Test"],
 
-Cell[BoxData["\<\"\\n\"\>"], "Print",
- CellChangeTimes->{
-  3.689071520312022*^9, 3.6890725264745717`*^9, 3.6893114409599566`*^9, 
-   3.689311540659732*^9, 3.689312520622253*^9, 3.6893126272640405`*^9, 
-   3.690262648406576*^9, {3.6902638684944468`*^9, 3.6902638950612926`*^9}, 
-   3.6902644100649977`*^9, 3.6902645616660633`*^9, 3.690264864392226*^9, 
-   3.6902950576910095`*^9, 3.69029515453598*^9, 3.690295541524834*^9, {
-   3.690508953822961*^9, 3.690508979609806*^9}, {3.690509970071146*^9, 
-   3.6905099891811795`*^9}, 3.6905100420964727`*^9, 3.690510252104041*^9, 
-   3.690510401162303*^9, {3.6905113189028516`*^9, 3.6905113394012876`*^9}, 
-   3.690511502000373*^9, 3.6905116370654106`*^9, 3.6905117487304068`*^9, 
-   3.6917212516119175`*^9, {3.691721357211957*^9, 3.6917213953691397`*^9}, 
-   3.691721425585868*^9, 3.69172152544858*^9, 3.6917216083003187`*^9, 
-   3.691721923497347*^9, 3.6917220539028053`*^9, 3.6917236382845936`*^9, 
-   3.691723712820857*^9, 3.6917241326428695`*^9, 3.6917242635733585`*^9, 
-   3.6917243097029963`*^9, 3.691724402454302*^9, 3.6917244873111553`*^9, 
-   3.6917246405009174`*^9, 3.6917250477380915`*^9, 3.691725087518162*^9, {
-   3.6917251344430437`*^9, 3.691725160245489*^9}, 3.6917255379065523`*^9, 
-   3.6917258662403293`*^9, 3.691726155262037*^9, {3.6917262154157424`*^9, 
-   3.6917262410153875`*^9}, 3.691726296629485*^9, 3.6917264049248753`*^9, 
-   3.69172662377766*^9, 3.69172681199199*^9},
+Cell[BoxData[
+ TemplateBox[{
+  "OpenCLFunctionLoad","invdrv",
+   "\"OpenCL was not able to find a valid OpenCL driver. Refer to \
+\\!\\(\\*\\nButtonBox[\\\"OpenCLLink System \
+Requirements\\\",ButtonStyle->\\\"Link\\\",ButtonData:>\\\"paclet:OpenCLLink/\
+tutorial/Setup\\\"]\\) for system requirements.\"",2,12,12,
+   25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921103547635*^9},
  CellTags->"RNG Test"],
 
-Cell[BoxData["0.5182014374099672`"], "Output",
+Cell[BoxData[
+ TemplateBox[{
+  "OpenCLFunctionLoad","invdevnm",
+   "\"OpenCL is not supported on device \\!\\(\\*RowBox[{\\\"\\\\\\\"Intel \
+Open Source Technology Center  3.0 Mesa 11.2.0\\\\\\\"\\\"}]\\). Refer to \\!\
+\\(\\*\\nButtonBox[\\\"OpenCLLink System \
+Requirements\\\",ButtonStyle->\\\"Link\\\",ButtonData:>\\\"paclet:OpenCLLink/\
+tutorial/Setup\\\"]\\) for system requirements.\"",2,12,13,
+   25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.6919211035599203`*^9},
+ CellTags->"RNG Test"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "OpenCLInformation","invdevnm",
+   "\"OpenCL is not supported on device \\!\\(\\*RowBox[{\\\"\\\\\\\"Intel \
+Open Source Technology Center  3.0 Mesa 11.2.0\\\\\\\"\\\"}]\\). Refer to \\!\
+\\(\\*\\nButtonBox[\\\"OpenCLLink System \
+Requirements\\\",ButtonStyle->\\\"Link\\\",ButtonData:>\\\"paclet:OpenCLLink/\
+tutorial/Setup\\\"]\\) for system requirements.\"",2,12,14,
+   25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921103568591*^9},
+ CellTags->"RNG Test"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Last","nolast",
+   "\"\\!\\(\\*RowBox[{\\\"{\\\", \\\"}\\\"}]\\) has zero length and no last \
+element.\"",2,12,15,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.69192110357898*^9},
+ CellTags->"RNG Test"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "First","nofirst",
+   "\"\\!\\(\\*RowBox[{\\\"{\\\", \\\"}\\\"}]\\) has zero length and no first \
+element.\"",2,12,16,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921103586961*^9},
+ CellTags->"RNG Test"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "OpenCLFunctionLoad","invplt","\"OpenCLLink platform is invalid.\"",2,12,17,
+   25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921103595845*^9},
+ CellTags->"RNG Test"],
+
+Cell[BoxData["0"], "Output",
  CellChangeTimes->{{3.6890714766445246`*^9, 3.6890715203300233`*^9}, 
    3.689072526509574*^9, 3.6893114410379567`*^9, 3.689311540675332*^9, 
    3.689312520622253*^9, 3.68931262727964*^9, 3.6902626485001764`*^9, {
@@ -204,10 +245,10 @@ Cell[BoxData["0.5182014374099672`"], "Output",
    3.691725160245489*^9}, 3.6917255379065523`*^9, 3.691725866255929*^9, 
    3.6917261552776365`*^9, {3.6917262157433434`*^9, 3.6917262410153875`*^9}, 
    3.691726296629485*^9, 3.6917264049248753`*^9, 3.6917266237932596`*^9, 
-   3.69172681199199*^9},
+   3.69172681199199*^9, 3.6919211036074123`*^9},
  CellTags->"RNG Test"],
 
-Cell[BoxData["0.29349407777104297`"], "Output",
+Cell[BoxData["0"], "Output",
  CellChangeTimes->{{3.6890714766445246`*^9, 3.6890715203300233`*^9}, 
    3.689072526509574*^9, 3.6893114410379567`*^9, 3.689311540675332*^9, 
    3.689312520622253*^9, 3.68931262727964*^9, 3.6902626485001764`*^9, {
@@ -227,10 +268,11 @@ Cell[BoxData["0.29349407777104297`"], "Output",
    3.691725160245489*^9}, 3.6917255379065523`*^9, 3.691725866255929*^9, 
    3.6917261552776365`*^9, {3.6917262157433434`*^9, 3.6917262410153875`*^9}, 
    3.691726296629485*^9, 3.6917264049248753`*^9, 3.6917266237932596`*^9, 
-   3.69172681199199*^9},
+   3.69172681199199*^9, 3.6919211036085978`*^9},
  CellTags->"RNG Test"],
 
-Cell[BoxData["0.4502095035577931`"], "Output",
+Cell[BoxData["1.55744751751642429282758814418`15.954589770191005*^-2572"], \
+"Output",
  CellChangeTimes->{{3.6890714766445246`*^9, 3.6890715203300233`*^9}, 
    3.689072526509574*^9, 3.6893114410379567`*^9, 3.689311540675332*^9, 
    3.689312520622253*^9, 3.68931262727964*^9, 3.6902626485001764`*^9, {
@@ -250,7 +292,7 @@ Cell[BoxData["0.4502095035577931`"], "Output",
    3.691725160245489*^9}, 3.6917255379065523`*^9, 3.691725866255929*^9, 
    3.6917261552776365`*^9, {3.6917262157433434`*^9, 3.6917262410153875`*^9}, 
    3.691726296629485*^9, 3.6917264049248753`*^9, 3.6917266237932596`*^9, 
-   3.6917268120075903`*^9},
+   3.69172681199199*^9, 3.6919211044267406`*^9},
  CellTags->"RNG Test"]
 }, Open  ]],
 
@@ -289,15 +331,17 @@ Cell[BoxData[
    RowBox[{
     RowBox[{"Dopt", "=", 
      RowBox[{"1.4", "*", 
-      SuperscriptBox["10", "9"], "*", "EvToErg"}]}], ";", " ", 
-    RowBox[{"(*", 
-     RowBox[{"Optic", " ", "phonon", " ", "constant"}], "*)"}], 
-    "\[IndentingNewLine]", 
+      SuperscriptBox["10", "9"], "*", "EvToErg"}]}], ";"}], " ", 
+   RowBox[{"(*", 
+    RowBox[{"Optic", " ", "phonon", " ", "constant"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
     RowBox[{"\[HBar]", "=", 
      SuperscriptBox["10", 
-      RowBox[{"-", "27"}]]}], " ", ";", 
-    RowBox[{"(*", " ", 
-     RowBox[{"Dirak", " ", "constant"}], "*)"}], "\[IndentingNewLine]", 
+      RowBox[{"-", "27"}]]}], " ", ";"}], 
+   RowBox[{"(*", " ", 
+    RowBox[{"Dirak", " ", "constant"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
     RowBox[{"\[Rho]", "=", 
      RowBox[{"2", "*", "7.7", "*", 
       SuperscriptBox["10", 
@@ -307,10 +351,10 @@ Cell[BoxData[
    RowBox[{
     RowBox[{"vs", "=", 
      RowBox[{"2.6", "*", 
-      SuperscriptBox["10", "6"]}]}], " ", ";", 
-    RowBox[{"(*", " ", 
-     RowBox[{"Speed", " ", "of", " ", "sound"}], "*)"}], 
-    "\[IndentingNewLine]", 
+      SuperscriptBox["10", "6"]}]}], " ", ";"}], 
+   RowBox[{"(*", " ", 
+    RowBox[{"Speed", " ", "of", " ", "sound"}], "*)"}], "\[IndentingNewLine]", 
+   RowBox[{
     RowBox[{"e", "=", 
      RowBox[{"4.8", "*", 
       SuperscriptBox["10", 
@@ -329,10 +373,11 @@ Cell[BoxData[
     RowBox[{"2", "D", " ", "concentration"}], "*)"}], "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"eph", "=", 
-     RowBox[{"0.196", "*", "EvToErg"}]}], ";", 
-    RowBox[{"(*", " ", 
-     RowBox[{"Optic", " ", "phonon", " ", "energy"}], "*)"}], 
-    "\[IndentingNewLine]", 
+     RowBox[{"0.196", "*", "EvToErg"}]}], ";"}], 
+   RowBox[{"(*", " ", 
+    RowBox[{"Optic", " ", "phonon", " ", "energy"}], "*)"}], 
+   "\[IndentingNewLine]", 
+   RowBox[{
     RowBox[{"\[Gamma]", "=", 
      RowBox[{"0.35", "*", "EvToErg"}]}], ";"}], "\n", 
    RowBox[{
@@ -466,6 +511,8 @@ Cell[BoxData[{
   3.691734224183707*^9, 3.691734224188266*^9}, {3.691734318831785*^9, 
   3.691734375196026*^9}}],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[{
  RowBox[{
   RowBox[{"n", " ", "=", " ", "100"}], ";"}], "\[IndentingNewLine]", 
@@ -529,6 +576,14 @@ Cell[BoxData[{
    3.68786333833475*^9}, {3.689068622733577*^9, 3.6890686263239775`*^9}, {
    3.689311493048448*^9, 3.689311493641249*^9}, {3.690263891208086*^9, 
    3.690263891520087*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "OpenCLFunctionLoad","invplt","\"OpenCLLink platform is invalid.\"",2,54,18,
+   25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921104981037*^9}]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -769,7 +824,7 @@ Cell[BoxData[{
    RowBox[{"\"\<Solve is over for \>\"", "<>", 
     RowBox[{"ToString", "[", 
      RowBox[{"ge", "-", "gb"}], "]"}], "<>", "\"\< second(s)\>\""}]}], 
-  ";"}]}], "Input",
+  ";"}], "\[IndentingNewLine]", "params"}], "Input",
  CellChangeTimes->{{3.5043063685746374`*^9, 3.5043063877007313`*^9}, {
    3.504307207989649*^9, 3.5043073733021045`*^9}, {3.504307682940815*^9, 
    3.5043076839838743`*^9}, {3.504307738173974*^9, 3.5043077674966507`*^9}, {
@@ -910,11 +965,12 @@ Cell[BoxData[{
    3.6917266125924397`*^9, 3.691726618926051*^9}, {3.691726685631768*^9, 
    3.691726695147785*^9}, {3.691734119842547*^9, 3.6917341674254103`*^9}, {
    3.691734204764495*^9, 3.691734293247569*^9}, {3.6917343273143387`*^9, 
-   3.6917343363813*^9}, {3.691736447942792*^9, 3.691736448411264*^9}}],
+   3.6917343363813*^9}, {3.691736447942792*^9, 3.691736448411264*^9}, {
+   3.691921053468924*^9, 3.691921080335799*^9}}],
 
 Cell[BoxData[
  DynamicBox[ToBoxes[$CellContext`IterMessage, StandardForm],
-  ImageSizeCache->{110., {3., 12.}}]], "Output",
+  ImageSizeCache->{367., {3., 12.}}]], "Output",
  CellChangeTimes->{{3.689072498368964*^9, 3.6890725266615825`*^9}, 
    3.689311441911558*^9, 3.6893115091476765`*^9, 3.689311540831332*^9, 
    3.6893124874721947`*^9, 3.689312520653453*^9, 3.6893126273108406`*^9, 
@@ -935,7 +991,298 @@ Cell[BoxData[
    3.691725160307889*^9}, 3.691725537953353*^9, 3.691725866302729*^9, 
    3.691726155324437*^9, {3.6917262164765444`*^9, 3.6917262411713877`*^9}, 
    3.6917262967854853`*^9, 3.6917264049872756`*^9, 3.69172662384006*^9, 
-   3.6917268120387907`*^9}]
+   3.6917268120387907`*^9, {3.69192108227559*^9, 3.6919211050670977`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Mean","rectt",
+   "\"Rectangular array expected at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) \
+in \\!\\(\\*RowBox[{\\\"Mean\\\", \\\"[\\\", FractionBox[\\\"1\\\", \
+\\\"20\\\"], \\\"]\\\"}]\\).\"",2,64,19,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.69192108235816*^9, 3.69192110520909*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part","partw",
+   "\"Part \\!\\(\\*RowBox[{\\\"3\\\"}]\\) of \\!\\(\\*RowBox[{FractionBox[\\\
+\"1\\\", \\\"20\\\"], \\\" \\\", RowBox[{\\\"(\\\", \
+RowBox[{RowBox[{RowBox[{\\\"OpenCLFunctionLoad\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"\[LeftSkeleton]\\\", \\\"7509\\\", \\\"\[RightSkeleton]\\\
+\"}], \\\",\\\", \\\"\\\\\\\"jobKernel\\\\\\\"\\\", \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Float\\\\\\\
+\"\\\", \\\",\\\", \\\"\\\\\\\"Output\\\\\\\"\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Integer32\\\\\\\"\\\", \\\",\\\", \\\"\
+\\\\\\\"Output\\\\\\\"\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"\\\\\\\"Integer32\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"Output\\\\\\\"\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"\\\\\\\"Float\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Input\\\\\\\"\\\
+\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"\\\\\\\"Integer32\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Input\\\\\\\
+\"\\\"}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", \\\"100\\\"}], \\\"]\\\"}], \
+\\\"[\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"50\\\", \\\"\[RightSkeleton]\\\"}]}], \\\
+\"}\\\"}], \\\",\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"3\\\", \\\"\
+\[RightSkeleton]\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"142583218\\\
+\", \\\",\\\", \\\"483779310\\\", \\\",\\\", \\\"279794456\\\", \\\",\\\", \\\
+\"526853877\\\", \\\",\\\", \\\"848934415\\\", \\\",\\\", \\\"427031687\\\", \
+\\\",\\\", \\\"747067104\\\", \\\",\\\", \\\"436818373\\\", \\\",\\\", \
+\\\"948539548\\\", \\\",\\\", \\\"777659564\\\", \\\",\\\", \
+\\\"117626407\\\", \\\",\\\", \\\"263198735\\\", \\\",\\\", \
+\\\"445113700\\\", \\\",\\\", \\\"694551043\\\", \\\",\\\", \
+\\\"661810392\\\", \\\",\\\", \\\"578515277\\\", \\\",\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"19\\\", \\\"\[RightSkeleton]\\\"}], \\\",\\\", \
+\\\"744299809\\\", \\\",\\\", \\\"540008006\\\", \\\",\\\", \
+\\\"643130745\\\", \\\",\\\", \\\"546504432\\\", \\\",\\\", \
+\\\"940333891\\\", \\\",\\\", \\\"540564723\\\", \\\",\\\", \
+\\\"623771465\\\", \\\",\\\", \\\"383711832\\\", \\\",\\\", \
+\\\"946910713\\\", \\\",\\\", \\\"894449564\\\", \\\",\\\", \
+\\\"731904600\\\", \\\",\\\", \\\"950127695\\\", \\\",\\\", \
+\\\"314603594\\\", \\\",\\\", \\\"952592096\\\", \\\",\\\", \
+\\\"285332707\\\", \\\",\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"50\\\", \\\
+\"\[RightSkeleton]\\\"}]}], \\\"}\\\"}]}], \\\"]\\\"}], \\\"+\\\", RowBox[{\\\
+\"\[LeftSkeleton]\\\", \\\"18\\\", \\\"\[RightSkeleton]\\\"}], \\\"+\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"1\\\", \\\"\[RightSkeleton]\\\"}]}], \
+\\\")\\\"}]}]\\) does not exist.\"",2,64,20,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.69192108235816*^9, 3.691921105220138*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StandardDeviation","rectt",
+   "\"Rectangular array expected at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) \
+in \\!\\(\\*RowBox[{\\\"StandardDeviation\\\", \\\"[\\\", FractionBox[\\\"1\\\
+\", \\\"20\\\"], \\\"]\\\"}]\\).\"",2,64,21,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.69192108235816*^9, 3.691921105229347*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Mean","rectt",
+   "\"Rectangular array expected at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) \
+in \\!\\(\\*RowBox[{\\\"Mean\\\", \\\"[\\\", FractionBox[\\\"1\\\", \
+\\\"20\\\"], \\\"]\\\"}]\\).\"",2,64,22,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.69192108235816*^9, 3.691921105239128*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part","partw",
+   "\"Part \\!\\(\\*RowBox[{\\\"3\\\"}]\\) of \\!\\(\\*RowBox[{FractionBox[\\\
+\"1\\\", \\\"20\\\"], \\\" \\\", RowBox[{\\\"(\\\", \
+RowBox[{RowBox[{RowBox[{\\\"OpenCLFunctionLoad\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"\[LeftSkeleton]\\\", \\\"7509\\\", \\\"\[RightSkeleton]\\\
+\"}], \\\",\\\", \\\"\\\\\\\"jobKernel\\\\\\\"\\\", \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Float\\\\\\\
+\"\\\", \\\",\\\", \\\"\\\\\\\"Output\\\\\\\"\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Integer32\\\\\\\"\\\", \\\",\\\", \\\"\
+\\\\\\\"Output\\\\\\\"\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"\\\\\\\"Integer32\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"Output\\\\\\\"\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"\\\\\\\"Float\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Input\\\\\\\"\\\
+\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"\\\\\\\"Integer32\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Input\\\\\\\
+\"\\\"}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", \\\"100\\\"}], \\\"]\\\"}], \
+\\\"[\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"50\\\", \\\"\[RightSkeleton]\\\"}]}], \\\
+\"}\\\"}], \\\",\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"3\\\", \\\"\
+\[RightSkeleton]\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"128299425\\\
+\", \\\",\\\", \\\"770130287\\\", \\\",\\\", \\\"154778132\\\", \\\",\\\", \\\
+\"907469281\\\", \\\",\\\", \\\"273095629\\\", \\\",\\\", \\\"725730747\\\", \
+\\\",\\\", \\\"432756291\\\", \\\",\\\", \\\"519344271\\\", \\\",\\\", \
+\\\"810101786\\\", \\\",\\\", \\\"516178900\\\", \\\",\\\", \
+\\\"569270581\\\", \\\",\\\", \\\"597374844\\\", \\\",\\\", \
+\\\"258086942\\\", \\\",\\\", \\\"389820579\\\", \\\",\\\", \
+\\\"571944807\\\", \\\",\\\", \\\"961739708\\\", \\\",\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"19\\\", \\\"\[RightSkeleton]\\\"}], \\\",\\\", \
+\\\"590731840\\\", \\\",\\\", \\\"165786335\\\", \\\",\\\", \
+\\\"753928907\\\", \\\",\\\", \\\"191172910\\\", \\\",\\\", \
+\\\"849737447\\\", \\\",\\\", \\\"540096758\\\", \\\",\\\", \
+\\\"691200220\\\", \\\",\\\", \\\"131104080\\\", \\\",\\\", \
+\\\"161807624\\\", \\\",\\\", \\\"609590874\\\", \\\",\\\", \
+\\\"594872444\\\", \\\",\\\", \\\"754667346\\\", \\\",\\\", \
+\\\"201180755\\\", \\\",\\\", \\\"493644936\\\", \\\",\\\", \
+\\\"152972173\\\", \\\",\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"50\\\", \\\
+\"\[RightSkeleton]\\\"}]}], \\\"}\\\"}]}], \\\"]\\\"}], \\\"+\\\", RowBox[{\\\
+\"\[LeftSkeleton]\\\", \\\"18\\\", \\\"\[RightSkeleton]\\\"}], \\\"+\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"1\\\", \\\"\[RightSkeleton]\\\"}]}], \
+\\\")\\\"}]}]\\) does not exist.\"",2,64,23,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.69192108235816*^9, 3.691921105249264*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StandardDeviation","rectt",
+   "\"Rectangular array expected at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) \
+in \\!\\(\\*RowBox[{\\\"StandardDeviation\\\", \\\"[\\\", FractionBox[\\\"1\\\
+\", \\\"20\\\"], \\\"]\\\"}]\\).\"",2,64,24,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.69192108235816*^9, 3.6919211052574587`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Mean","rectt",
+   "\"Rectangular array expected at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) \
+in \\!\\(\\*RowBox[{\\\"Mean\\\", \\\"[\\\", FractionBox[\\\"1\\\", \
+\\\"20\\\"], \\\"]\\\"}]\\).\"",2,64,25,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.69192108235816*^9, 3.691921105265656*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General","stop",
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"Mean\\\", \\\"::\\\", \
+\\\"rectt\\\"}], \\\"MessageName\\\"]\\) will be suppressed during this \
+calculation.\"",2,64,26,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.69192108235816*^9, 3.691921105275744*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part","partw",
+   "\"Part \\!\\(\\*RowBox[{\\\"3\\\"}]\\) of \\!\\(\\*RowBox[{FractionBox[\\\
+\"1\\\", \\\"20\\\"], \\\" \\\", RowBox[{\\\"(\\\", \
+RowBox[{RowBox[{RowBox[{\\\"OpenCLFunctionLoad\\\", \\\"[\\\", \
+RowBox[{RowBox[{\\\"\[LeftSkeleton]\\\", \\\"7509\\\", \\\"\[RightSkeleton]\\\
+\"}], \\\",\\\", \\\"\\\\\\\"jobKernel\\\\\\\"\\\", \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Float\\\\\\\
+\"\\\", \\\",\\\", \\\"\\\\\\\"Output\\\\\\\"\\\"}], \\\"}\\\"}], \\\",\\\", \
+RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Integer32\\\\\\\"\\\", \\\",\\\", \\\"\
+\\\\\\\"Output\\\\\\\"\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"\\\\\\\"Integer32\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"Output\\\\\\\"\\\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"\\\\\\\"Float\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Input\\\\\\\"\\\
+\"}], \\\"}\\\"}], \\\",\\\", RowBox[{\\\"{\\\", \
+RowBox[{\\\"\\\\\\\"Integer32\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Input\\\\\\\
+\"\\\"}], \\\"}\\\"}]}], \\\"}\\\"}], \\\",\\\", \\\"100\\\"}], \\\"]\\\"}], \
+\\\"[\\\", RowBox[{RowBox[{\\\"{\\\", RowBox[{\\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+\\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \
+\\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \\\"0\\\", \\\",\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"50\\\", \\\"\[RightSkeleton]\\\"}]}], \\\
+\"}\\\"}], \\\",\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"3\\\", \\\"\
+\[RightSkeleton]\\\"}], \\\",\\\", RowBox[{\\\"{\\\", RowBox[{\\\"125494807\\\
+\", \\\",\\\", \\\"453618943\\\", \\\",\\\", \\\"431221499\\\", \\\",\\\", \\\
+\"940792248\\\", \\\",\\\", \\\"756068786\\\", \\\",\\\", \\\"919435317\\\", \
+\\\",\\\", \\\"881672063\\\", \\\",\\\", \\\"667006001\\\", \\\",\\\", \
+\\\"844756259\\\", \\\",\\\", \\\"190517306\\\", \\\",\\\", \
+\\\"719593506\\\", \\\",\\\", \\\"116771416\\\", \\\",\\\", \
+\\\"339100567\\\", \\\",\\\", \\\"260961815\\\", \\\",\\\", \
+\\\"482290298\\\", \\\",\\\", \\\"691157421\\\", \\\",\\\", RowBox[{\\\"\
+\[LeftSkeleton]\\\", \\\"19\\\", \\\"\[RightSkeleton]\\\"}], \\\",\\\", \
+\\\"292527006\\\", \\\",\\\", \\\"203915486\\\", \\\",\\\", \
+\\\"712897852\\\", \\\",\\\", \\\"654947547\\\", \\\",\\\", \
+\\\"764214205\\\", \\\",\\\", \\\"754520761\\\", \\\",\\\", \
+\\\"724034851\\\", \\\",\\\", \\\"139868863\\\", \\\",\\\", \
+\\\"256163867\\\", \\\",\\\", \\\"400300054\\\", \\\",\\\", \
+\\\"837283740\\\", \\\",\\\", \\\"556871589\\\", \\\",\\\", \
+\\\"344012704\\\", \\\",\\\", \\\"252476972\\\", \\\",\\\", \
+\\\"536723878\\\", \\\",\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"50\\\", \\\
+\"\[RightSkeleton]\\\"}]}], \\\"}\\\"}]}], \\\"]\\\"}], \\\"+\\\", RowBox[{\\\
+\"\[LeftSkeleton]\\\", \\\"18\\\", \\\"\[RightSkeleton]\\\"}], \\\"+\\\", \
+RowBox[{\\\"\[LeftSkeleton]\\\", \\\"1\\\", \\\"\[RightSkeleton]\\\"}]}], \
+\\\")\\\"}]}]\\) does not exist.\"",2,64,27,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.69192108235816*^9, 3.691921105285844*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General","stop",
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"Part\\\", \\\"::\\\", \
+\\\"partw\\\"}], \\\"MessageName\\\"]\\) will be suppressed during this \
+calculation.\"",2,64,28,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.69192108235816*^9, 3.6919211052941236`*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StandardDeviation","rectt",
+   "\"Rectangular array expected at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) \
+in \\!\\(\\*RowBox[{\\\"StandardDeviation\\\", \\\"[\\\", FractionBox[\\\"1\\\
+\", \\\"20\\\"], \\\"]\\\"}]\\).\"",2,64,29,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.69192108235816*^9, 3.691921105302618*^9}}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General","stop",
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"StandardDeviation\\\", \
+\\\"::\\\", \\\"rectt\\\"}], \\\"MessageName\\\"]\\) will be suppressed \
+during this calculation.\"",2,64,30,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{{3.69192108235816*^9, 3.691921105312275*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+  "0.`", ",", "0.`", ",", "4584.7579800226495`", ",", "2292.3789900113247`", 
+   ",", "0.`", ",", "5.`", ",", "5.`", ",", 
+   FractionBox["\[Pi]", "6"], ",", "1", ",", "4.724682411880481`", ",", 
+   "1.3181179192565113`*^-10", ",", "22.724637681159425`", ",", 
+   "0.002748758933374317`", ",", "30.948052904438587`", ",", 
+   "28.6941882220628`", ",", "46.73772607709305`", ",", 
+   "2.1811402136325195`*^-7", ",", "0.021811402136325195`", ",", 
+   "0.7246376811594205`"}], "}"}]], "Output",
+ CellChangeTimes->{{3.689072498368964*^9, 3.6890725266615825`*^9}, 
+   3.689311441911558*^9, 3.6893115091476765`*^9, 3.689311540831332*^9, 
+   3.6893124874721947`*^9, 3.689312520653453*^9, 3.6893126273108406`*^9, 
+   3.6893127366670322`*^9, 3.6902626492333775`*^9, {3.6902638685568466`*^9, 
+   3.690263896246895*^9}, 3.6902644112037992`*^9, 3.6902645627580657`*^9, 
+   3.690264865484228*^9, 3.6902950582526107`*^9, 3.690295155690382*^9, 
+   3.6902955426168365`*^9, {3.6905089546809626`*^9, 3.6905089807642083`*^9}, {
+   3.690509971178748*^9, 3.6905099939079876`*^9}, 3.690510046823281*^9, 
+   3.6905102567528496`*^9, 3.6905104057955112`*^9, {3.6905113234892597`*^9, 
+   3.6905113502121067`*^9}, 3.690511502140774*^9, 3.6905116372058105`*^9, 
+   3.690511749916009*^9, 3.6917212526319757`*^9, {3.6917213573609657`*^9, 
+   3.6917213956081533`*^9}, 3.6917214256298704`*^9, 3.691721525490582*^9, 
+   3.691721608345321*^9, 3.69172192354735*^9, 3.6917220539768095`*^9, 
+   3.691723639296652*^9, 3.691723714041927*^9, 3.6917241375591507`*^9, 
+   3.691724268446637*^9, 3.691724314675281*^9, 3.691724407269577*^9, 
+   3.6917244921164303`*^9, 3.691724640648926*^9, 3.6917247244777203`*^9, 
+   3.691725047878492*^9, 3.6917250885789633`*^9, {3.691725134599044*^9, 
+   3.691725160307889*^9}, 3.691725537953353*^9, 3.691725866302729*^9, 
+   3.691726155324437*^9, {3.6917262164765444`*^9, 3.6917262411713877`*^9}, 
+   3.6917262967854853`*^9, 3.6917264049872756`*^9, 3.69172662384006*^9, 
+   3.6917268120387907`*^9, {3.69192108227559*^9, 3.6919211053142023`*^9}}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -955,20 +1302,20 @@ Cell[BoxData[
   3.6880451625912046`*^9, 3.6880451657433853`*^9}}],
 
 Cell[BoxData[
- GraphicsBox[{{}, {{}, {}, 
-    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.019444444444444445`],
-      AbsoluteThickness[1.6], LineBox[CompressedData["
-1:eJxTTMoPSmViYGAQBWIQDQPLn3l8mRx9yR7Ce2C/47P8jMsaMP4H+y8XJNh/
-ysL4P+yrXor07/l4EcpncDjxjeH537kwPovD9QqOBL9SGJ/DYavH78NTzl6A
-8nkcxPR2e8UlwvgCDrf4DBWvJZ6H8oUconel/NorBuOLOFzj8wy1UjgH5Ys5
-pKXtteJyOgPlSzhMO7cx9+rT01C+lANrY9AMw+CTUL6Mg595yeWj609A+XIO
-58sXbg+POw7lKzh0Oial3QyF8RUdxG5e75vlegzKV3LQ3ZTPmsxxBMpXdhD0
-Vf0XcR3GV3FgYT955hzXUXsAufhexg==
-      "]]}}, {}},
+ TemplateBox[{
+  "Mean","rectt",
+   "\"Rectangular array expected at position \\!\\(\\*RowBox[{\\\"1\\\"}]\\) \
+in \\!\\(\\*RowBox[{\\\"Mean\\\", \\\"[\\\", \\\"0.05`16.\\\", \
+\\\"]\\\"}]\\).\"",2,68,31,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.6919211055723248`*^9}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {}, {}, {}, {{}, {}}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{None, None},
-  AxesOrigin->{0, 0.14998926840706317`},
+  AxesOrigin->{0, 0},
   DisplayFunction->Identity,
   Frame->{{False, False}, {False, False}},
   FrameLabel->{{None, None}, {None, None}},
@@ -976,13 +1323,22 @@ Vf0XcR3GV3FgYT955hzXUXsAufhexg==
   GridLines->{None, None},
   GridLinesStyle->Directive[
     GrayLevel[0.5, 0.4]],
-  Method->{},
-  PlotRange->{{0, 10.}, {0.1565059448761458, 0.2868394742577984}},
+  ImagePadding->All,
+  Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 1, 2][#]& )[
+         Part[#, 1]], 
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 2, 2][#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 1, 2][#]& )[
+         Part[#, 1]], 
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 2, 2][#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0, 1}, {0, 1}},
   PlotRangeClipping->True,
   PlotRangePadding->{{
      Scaled[0.02], 
      Scaled[0.02]}, {
-     Scaled[0.05], 
+     Scaled[0.02], 
      Scaled[0.05]}},
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{
@@ -1025,7 +1381,7 @@ Vf0XcR3GV3FgYT955hzXUXsAufhexg==
    3.691724643741102*^9, 3.691724872390911*^9, 3.6917250508736973`*^9, 
    3.69172513793745*^9, 3.691725316682564*^9, 3.6917257465881195`*^9, 
    3.691726022786604*^9, 3.691726313695915*^9, 3.691726555121939*^9, 
-   3.6917267608239*^9, 3.691726948819831*^9}]
+   3.6917267608239*^9, 3.691726948819831*^9, 3.691921105612512*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1047,15 +1403,80 @@ Cell[BoxData[
   3.6880476945007925`*^9, 3.688047701520805*^9}}],
 
 Cell[BoxData[
- GraphicsBox[{{}, {{}, {}, 
-    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.019444444444444445`],
-      AbsoluteThickness[1.6], LineBox[CompressedData["
-1:eJxTTMoPSmViYGAQBWIQDQO/6rL2lEyeYQ/hPbD34mHSbhebCeV/sPcx73RM
-eLoAyv9hP2smGED5DA6o8iwOqPIcDpd9kwQiLJdA+TwOX/5eqXipthDKF3Ao
-zpj4tsZ+KZQv5ODxsEpknftGKF/EYYGU/l0VNhhfzOH575UfL/lugvIlHHbI
-tb4O3LEOypeC2rcFypdB0y/n0Hzg1ELXbZuhfAUHe9O4XZ48MPMUHUCqG6fC
-5JUcTgNVf/4LM0/Z4bg3yMNboXwVh38g7xjusAcAXpVbdw==
-      "]]}}, {}},
+ TemplateBox[{
+  "OpenCLFunctionLoad","invblk",
+   "\"-- Message text not found -- \
+(\\!\\(\\*RowBox[{\\\"100.`16.\\\"}]\\))\"",2,69,32,25603693384178635470,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921106108595*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part","partw",
+   "\"Part \\!\\(\\*RowBox[{\\\"3\\\"}]\\) of \\!\\(\\*RowBox[{\\\"0.05`16.\\\
+\", \\\" \\\", RowBox[{\\\"(\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"1\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\")\\\"}]}]\\) does not exist.\"",2,69,33,
+   25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921106352891*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part","partw",
+   "\"Part \\!\\(\\*RowBox[{\\\"3\\\"}]\\) of \\!\\(\\*RowBox[{\\\"0.05`16.\\\
+\", \\\" \\\", RowBox[{\\\"(\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"1\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\")\\\"}]}]\\) does not exist.\"",2,69,34,
+   25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.69192110659587*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part","partw",
+   "\"Part \\!\\(\\*RowBox[{\\\"3\\\"}]\\) of \\!\\(\\*RowBox[{\\\"0.05`16.\\\
+\", \\\" \\\", RowBox[{\\\"(\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"1\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\")\\\"}]}]\\) does not exist.\"",2,69,35,
+   25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.69192110683912*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General","stop",
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"Part\\\", \\\"::\\\", \
+\\\"partw\\\"}], \\\"MessageName\\\"]\\) will be suppressed during this \
+calculation.\"",2,69,36,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.6919211070590773`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "OpenCLFunctionLoad","invblk",
+   "\"-- Message text not found -- (\\!\\(\\*RowBox[{\\\"100.`\\\"}]\\))\"",2,
+   69,37,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921107277073*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "OpenCLFunctionLoad","invblk",
+   "\"-- Message text not found -- (\\!\\(\\*RowBox[{\\\"100.`\\\"}]\\))\"",2,
+   69,38,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921107472951*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General","stop",
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"OpenCLFunctionLoad\\\", \
+\\\"::\\\", \\\"invblk\\\"}], \\\"MessageName\\\"]\\) will be suppressed \
+during this calculation.\"",2,69,39,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921107659135*^9}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {}, {}, {}, {{}, {}}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{None, None},
@@ -1067,8 +1488,17 @@ tb4O3LEOypeC2rcFypdB0y/n0Hzg1ELXbZuhfAUHe9O4XZ48MPMUHUCqG6fC
   GridLines->{None, None},
   GridLinesStyle->Directive[
     GrayLevel[0.5, 0.4]],
-  Method->{},
-  PlotRange->{{0, 10.}, {0, 0.0945}},
+  ImagePadding->All,
+  Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 1, 2][#]& )[
+         Part[#, 1]], 
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 2, 2][#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 1, 2][#]& )[
+         Part[#, 1]], 
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 2, 2][#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0, 1}, {0, 1}},
   PlotRangeClipping->True,
   PlotRangePadding->{{
      Scaled[0.02], 
@@ -1096,7 +1526,7 @@ tb4O3LEOypeC2rcFypdB0y/n0Hzg1ELXbZuhfAUHe9O4XZ48MPMUHUCqG6fC
    3.691724647774333*^9, 3.6917248822345285`*^9, 3.691725054742504*^9, 
    3.69172513796865*^9, 3.691725316713764*^9, 3.691725746619319*^9, 
    3.6917260228178043`*^9, 3.691726313727115*^9, 3.691726555153139*^9, 
-   3.6917267608551006`*^9, 3.691726948851031*^9}]
+   3.6917267608551006`*^9, 3.691726948851031*^9, 3.691921108248086*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1115,20 +1545,44 @@ Cell[BoxData[
  CellChangeTimes->{{3.6880464262612405`*^9, 3.6880464344980545`*^9}}],
 
 Cell[BoxData[
- GraphicsBox[{{}, {{}, {}, 
-    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.019444444444444445`],
-      AbsoluteThickness[1.6], LineBox[CompressedData["
-1:eJxTTMoPSmViYGAQBWIQDQM/73QKPDD0t4XwHthPy7DZ8qTQD8r/YB9ccVaD
-SzAAyv9h3+L87NLeeph6BgdVRYmfe7tgfBaH/W9ehEWww9RzOEhnr01TyYLJ
-8zi8Md9zxf4ujC/gYJgycaEwB0y9kINpxz73QD0YX8Rh3jFvGd/zMPViDhdt
-E15ZWMDkJRze51l6N/LD+FIOCo8PL1v4BqZexiFw7/b4GCaYvJxDlcIGzwgW
-mLyCA/83fp8ZrjC+osPjVUZZwc9h/ldy+B8p/XX7Nxhf2WFfw0325Y4w9SoO
-m/YU3jaq9bMFAK8aU4Y=
-      "]]}}, {}},
+ TemplateBox[{
+  "OpenCLFunctionLoad","invblk",
+   "\"-- Message text not found -- (\\!\\(\\*RowBox[{\\\"100.`\\\"}]\\))\"",2,
+   70,40,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921108627204*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "OpenCLFunctionLoad","invblk",
+   "\"-- Message text not found -- (\\!\\(\\*RowBox[{\\\"100.`\\\"}]\\))\"",2,
+   70,41,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.6919211088084307`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "OpenCLFunctionLoad","invblk",
+   "\"-- Message text not found -- (\\!\\(\\*RowBox[{\\\"100.`\\\"}]\\))\"",2,
+   70,42,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921108987896*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General","stop",
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"OpenCLFunctionLoad\\\", \
+\\\"::\\\", \\\"invblk\\\"}], \\\"MessageName\\\"]\\) will be suppressed \
+during this calculation.\"",2,70,43,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.69192110916965*^9}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {}, {}, {}, {{}, {}}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{None, None},
-  AxesOrigin->{0, 2.156154646857502*^-13},
+  AxesOrigin->{0, 0},
   DisplayFunction->Identity,
   Frame->{{False, False}, {False, False}},
   FrameLabel->{{None, None}, {None, None}},
@@ -1136,13 +1590,22 @@ m/YU3jaq9bMFAK8aU4Y=
   GridLines->{None, None},
   GridLinesStyle->Directive[
     GrayLevel[0.5, 0.4]],
-  Method->{},
-  PlotRange->{{0, 10.}, {2.163239969150316*^-13, 2.304946415006603*^-13}},
+  ImagePadding->All,
+  Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 1, 2][#]& )[
+         Part[#, 1]], 
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 2, 2][#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 1, 2][#]& )[
+         Part[#, 1]], 
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 2, 2][#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0, 1}, {0, 1}},
   PlotRangeClipping->True,
   PlotRangePadding->{{
      Scaled[0.02], 
      Scaled[0.02]}, {
-     Scaled[0.05], 
+     Scaled[0.02], 
      Scaled[0.05]}},
   Ticks->{Automatic, Automatic}]], "Output",
  CellChangeTimes->{
@@ -1161,7 +1624,7 @@ m/YU3jaq9bMFAK8aU4Y=
    3.691724651703558*^9, 3.691724887242137*^9, 3.6917250584865103`*^9, 
    3.6917251380154505`*^9, 3.6917253167449636`*^9, 3.6917257466505194`*^9, 
    3.6917260228490047`*^9, 3.691726313758315*^9, 3.6917265551843395`*^9, 
-   3.6917267608863006`*^9, 3.6917269488822308`*^9}]
+   3.6917267608863006`*^9, 3.6917269488822308`*^9, 3.6919211097821608`*^9}]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1190,16 +1653,79 @@ Cell[BoxData[
   3.6880478304052353`*^9}, {3.6880480730830584`*^9, 3.6880480928421884`*^9}}],
 
 Cell[BoxData[
- GraphicsBox[{{}, {{}, {}, 
-    {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.019444444444444445`],
-      AbsoluteThickness[1.6], LineBox[CompressedData["
-1:eJxTTMoPSmViYGAQBWIQDQOf9JounArws4fwHti7MF5sYzGB8T/Yr6jsO8de
-EQrl/7Dvci5a//uRP5TP4LBEJVnrtRBMnsXh/r8ZpTcsA6B8DgeVb5+2VMtH
-Qvk8DsGWh3bMmwNTL+CgLX/z3ZwPUVC+kIOCt+/yzzJpUL6IA+fNX/ofM1Oh
-fDGH29N+uFy5nAnlSzgUb5u/Jy8zHcqXcjgZmtfiPaMAypdxWHem7ZiAbh6U
-L+ew/dD1z78Vi6B8BYeYYydSd94qhPIVHQ4kWt9aFl4C5Ss5zDKoZH6lWA7l
-KzscK/wwPVeyEspXcZhXPjF3g1atPQDf1lxw
-      "]]}}, {}},
+ TemplateBox[{
+  "Part","partw",
+   "\"Part \\!\\(\\*RowBox[{\\\"3\\\"}]\\) of \\!\\(\\*RowBox[{\\\"0.05`16.\\\
+\", \\\" \\\", RowBox[{\\\"(\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"1\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\")\\\"}]}]\\) does not exist.\"",2,71,44,
+   25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921110075642*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part","partw",
+   "\"Part \\!\\(\\*RowBox[{\\\"3\\\"}]\\) of \\!\\(\\*RowBox[{\\\"0.05`16.\\\
+\", \\\" \\\", RowBox[{\\\"(\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"1\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\")\\\"}]}]\\) does not exist.\"",2,71,45,
+   25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.69192111020378*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Part","partw",
+   "\"Part \\!\\(\\*RowBox[{\\\"3\\\"}]\\) of \\!\\(\\*RowBox[{\\\"0.05`16.\\\
+\", \\\" \\\", RowBox[{\\\"(\\\", RowBox[{\\\"\[LeftSkeleton]\\\", \\\"1\\\", \
+\\\"\[RightSkeleton]\\\"}], \\\")\\\"}]}]\\) does not exist.\"",2,71,46,
+   25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.6919211103193407`*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General","stop",
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"Part\\\", \\\"::\\\", \
+\\\"partw\\\"}], \\\"MessageName\\\"]\\) will be suppressed during this \
+calculation.\"",2,71,47,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921110410322*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "OpenCLFunctionLoad","invblk",
+   "\"-- Message text not found -- (\\!\\(\\*RowBox[{\\\"100.`\\\"}]\\))\"",2,
+   71,48,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921110545699*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "OpenCLFunctionLoad","invblk",
+   "\"-- Message text not found -- (\\!\\(\\*RowBox[{\\\"100.`\\\"}]\\))\"",2,
+   71,49,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921110637743*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "OpenCLFunctionLoad","invblk",
+   "\"-- Message text not found -- (\\!\\(\\*RowBox[{\\\"100.`\\\"}]\\))\"",2,
+   71,50,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921110728084*^9}],
+
+Cell[BoxData[
+ TemplateBox[{
+  "General","stop",
+   "\"Further output of \\!\\(\\*StyleBox[RowBox[{\\\"OpenCLFunctionLoad\\\", \
+\\\"::\\\", \\\"invblk\\\"}], \\\"MessageName\\\"]\\) will be suppressed \
+during this calculation.\"",2,71,51,25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691921110820784*^9}],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {}, {}, {}, {{}, {}}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{None, None},
@@ -1211,8 +1737,17 @@ KzscK/wwPVeyEspXcZhXPjF3g1atPQDf1lxw
   GridLines->{None, None},
   GridLinesStyle->Directive[
     GrayLevel[0.5, 0.4]],
-  Method->{},
-  PlotRange->{{0, 10.}, {0, 0.007120789691809208}},
+  ImagePadding->All,
+  Method->{"CoordinatesToolOptions" -> {"DisplayFunction" -> ({
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 1, 2][#]& )[
+         Part[#, 1]], 
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 2, 2][#]& )[
+         Part[#, 2]]}& ), "CopiedValueFunction" -> ({
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 1, 2][#]& )[
+         Part[#, 1]], 
+        (Part[{{Identity, Identity}, {Identity, Identity}}, 2, 2][#]& )[
+         Part[#, 2]]}& )}},
+  PlotRange->{{0, 1}, {0, 1}},
   PlotRangeClipping->True,
   PlotRangePadding->{{
      Scaled[0.02], 
@@ -1237,11 +1772,64 @@ KzscK/wwPVeyEspXcZhXPjF3g1atPQDf1lxw
    3.6917237338760614`*^9, 3.6917246592329884`*^9, 3.6917248926241465`*^9, 
    3.691725065646923*^9, 3.69172513804665*^9, 3.691725316776164*^9, 
    3.6917257466817193`*^9, 3.691726022880204*^9, 3.6917263137895155`*^9, 
-   3.691726555215539*^9, 3.6917267609175005`*^9, 3.6917269489134307`*^9}]
-}, Open  ]]
+   3.691726555215539*^9, 3.6917267609175005`*^9, 3.6917269489134307`*^9, 
+   3.6919211119671383`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"CreateLibrary", "[", 
+  RowBox[{
+   RowBox[{
+   "File", "[", "\"\<~/Repositories/bilayer-graphene/bilayer_graphene.cc\>\"",
+     "]"}], ",", "\"\<lib\>\""}], "]"}]], "Input",
+ CellChangeTimes->{{3.691924259905971*^9, 3.6919242605288*^9}, {
+  3.691924318414669*^9, 3.69192439598862*^9}, {3.6919246386078863`*^9, 
+  3.691924641957611*^9}}],
+
+Cell[BoxData["\<\"/home/citrux/.Mathematica/SystemFiles/LibraryResources/\
+Linux-x86-64/lib.so\"\>"], "Output",
+ CellChangeTimes->{3.6919243978922853`*^9, 3.6919246436595507`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"fun", "=", 
+  RowBox[{"LibraryFunctionLoad", "[", 
+   RowBox[{"\"\<lib\>\"", ",", " ", "\"\<jobKernel\>\"", ",", " ", 
+    RowBox[{"(", 
+     RowBox[{
+     "Integer", ",", "Real", ",", "Integer", ",", "Integer", ",", " ", "Real",
+       ",", " ", "Integer"}], ")"}], ",", "\"\<Void\>\""}], "]"}]}]], "Input",\
+
+ CellChangeTimes->{{3.691924471402426*^9, 3.691924525815518*^9}, {
+  3.691924616559895*^9, 3.691924653385257*^9}, {3.691924744805912*^9, 
+  3.6919249171612053`*^9}},
+ EmphasizeSyntaxErrors->True,
+ NumberMarks->False],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Syntax","sntxf",
+   "\"\\\"\\!\\(\\*RowBox[{\\\"(\\\"}]\\)\\\" cannot be followed by \
+\\\"\\!\\(\\*RowBox[{RowBox[{\\\"\\\\\\\"Integer32\\\\\\\"\\\", \\\",\\\", \\\
+\"\\\\\\\"Float\\\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Integer32\\\\\\\"\\\", \\\
+\",\\\", \\\"\\\\\\\"Integer32\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"Float\\\\\\\"\\\", \\\",\\\", \
+\\\"\\\\\\\"Integer32\\\\\\\"\\\"}], \
+\\\")\\\"}]\\)\\\"\\!\\(\\*RowBox[{\\\"\\\\\\\"\\\\\\\"\\\"}]\\).\"",2,82,61,
+   25603693384178635470,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.691924875550026*^9}]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellChangeTimes->{{3.691924415730167*^9, 3.691924417332582*^9}}]
 },
 WindowSize->{1904, 992},
-WindowMargins->{{0, Automatic}, {Automatic, 26}},
+WindowMargins->{{0, Automatic}, {6, Automatic}},
 Magnification:>1.1 Inherited,
 FrontEndVersion->"11.0 for Linux x86 (64-bit) (July 28, 2016)",
 StyleDefinitions->"Default.nb"
@@ -1254,19 +1842,29 @@ CellTagsIndex->{
  "RNG Test"->{
   Cell[6107, 106, 2419, 55, 156, "Input",
    CellTags->"RNG Test"],
-  Cell[8529, 163, 1459, 21, 48, "Print",
+  Cell[8529, 163, 454, 10, 24, "Message",
    CellTags->"RNG Test"],
-  Cell[9991, 186, 1481, 21, 34, "Output",
+  Cell[8986, 175, 543, 11, 24, "Message",
    CellTags->"RNG Test"],
-  Cell[11475, 209, 1482, 21, 34, "Output",
+  Cell[9532, 188, 540, 11, 24, "Message",
    CellTags->"RNG Test"],
-  Cell[12960, 232, 1484, 21, 34, "Output",
+  Cell[10075, 201, 282, 7, 24, "Message",
+   CellTags->"RNG Test"],
+  Cell[10360, 210, 286, 7, 24, "Message",
+   CellTags->"RNG Test"],
+  Cell[10649, 219, 247, 6, 24, "Message",
+   CellTags->"RNG Test"],
+  Cell[10899, 227, 1487, 21, 34, "Output",
+   CellTags->"RNG Test"],
+  Cell[12389, 250, 1487, 21, 34, "Output",
+   CellTags->"RNG Test"],
+  Cell[13879, 273, 1545, 22, 37, "Output",
    CellTags->"RNG Test"]}
  }
 *)
 (*CellTagsIndex
 CellTagsIndex->{
- {"RNG Test", 61406, 1253}
+ {"RNG Test", 89201, 1841}
  }
 *)
 (*NotebookFileOutline
@@ -1276,39 +1874,95 @@ Cell[757, 25, 5325, 77, 36, "Input"],
 Cell[CellGroupData[{
 Cell[6107, 106, 2419, 55, 156, "Input",
  CellTags->"RNG Test"],
-Cell[8529, 163, 1459, 21, 48, "Print",
+Cell[8529, 163, 454, 10, 24, "Message",
  CellTags->"RNG Test"],
-Cell[9991, 186, 1481, 21, 34, "Output",
+Cell[8986, 175, 543, 11, 24, "Message",
  CellTags->"RNG Test"],
-Cell[11475, 209, 1482, 21, 34, "Output",
+Cell[9532, 188, 540, 11, 24, "Message",
  CellTags->"RNG Test"],
-Cell[12960, 232, 1484, 21, 34, "Output",
+Cell[10075, 201, 282, 7, 24, "Message",
+ CellTags->"RNG Test"],
+Cell[10360, 210, 286, 7, 24, "Message",
+ CellTags->"RNG Test"],
+Cell[10649, 219, 247, 6, 24, "Message",
+ CellTags->"RNG Test"],
+Cell[10899, 227, 1487, 21, 34, "Output",
+ CellTags->"RNG Test"],
+Cell[12389, 250, 1487, 21, 34, "Output",
+ CellTags->"RNG Test"],
+Cell[13879, 273, 1545, 22, 37, "Output",
  CellTags->"RNG Test"]
 }, Open  ]],
-Cell[14459, 256, 5786, 146, 592, "Input"],
-Cell[20248, 404, 1319, 27, 173, "Input"],
-Cell[21570, 433, 1145, 33, 188, "Input"],
-Cell[22718, 468, 2830, 62, 159, "Input"],
+Cell[15439, 298, 5827, 149, 592, "Input"],
+Cell[21269, 449, 1319, 27, 173, "Input"],
+Cell[22591, 478, 1145, 33, 188, "Input"],
 Cell[CellGroupData[{
-Cell[25573, 534, 19708, 378, 1127, "Input"],
-Cell[45284, 914, 1623, 23, 34, "Output"]
+Cell[23761, 515, 2830, 62, 159, "Input"],
+Cell[26594, 579, 224, 5, 24, "Message"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[46944, 942, 490, 12, 36, "Input"],
-Cell[47437, 956, 4121, 71, 265, "Output"]
+Cell[26855, 589, 19791, 379, 1150, "Input"],
+Cell[46649, 970, 1670, 23, 34, "Output"],
+Cell[48322, 995, 371, 7, 51, "Message"],
+Cell[48696, 1004, 4019, 57, 110, "Message"],
+Cell[52718, 1063, 398, 7, 51, "Message"],
+Cell[53119, 1072, 372, 7, 51, "Message"],
+Cell[53494, 1081, 4019, 57, 110, "Message"],
+Cell[57516, 1140, 400, 7, 51, "Message"],
+Cell[57919, 1149, 372, 7, 51, "Message"],
+Cell[58294, 1158, 361, 7, 24, "Message"],
+Cell[58658, 1167, 4019, 57, 110, "Message"],
+Cell[62680, 1226, 363, 7, 24, "Message"],
+Cell[63046, 1235, 398, 7, 51, "Message"],
+Cell[63447, 1244, 374, 7, 24, "Message"],
+Cell[63824, 1253, 2078, 31, 50, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[51595, 1032, 649, 14, 36, "Input"],
-Cell[52247, 1048, 2582, 50, 262, "Output"]
+Cell[65939, 1289, 490, 12, 36, "Input"],
+Cell[66432, 1303, 333, 7, 24, "Message"],
+Cell[66768, 1312, 4100, 71, 265, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[54866, 1103, 445, 11, 36, "Input"],
-Cell[55314, 1116, 2375, 47, 235, "Output"]
+Cell[70905, 1388, 649, 14, 36, "Input"],
+Cell[71557, 1404, 268, 7, 24, "Message"],
+Cell[71828, 1413, 395, 8, 24, "Message"],
+Cell[72226, 1423, 394, 8, 24, "Message"],
+Cell[72623, 1433, 394, 8, 24, "Message"],
+Cell[73020, 1443, 340, 7, 24, "Message"],
+Cell[73363, 1452, 263, 6, 24, "Message"],
+Cell[73629, 1460, 263, 6, 24, "Message"],
+Cell[73895, 1468, 353, 7, 24, "Message"],
+Cell[74251, 1477, 2654, 51, 265, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[57726, 1168, 862, 21, 36, "Input"],
-Cell[58591, 1191, 2485, 48, 257, "Output"]
-}, Open  ]]
+Cell[76942, 1533, 445, 11, 36, "Input"],
+Cell[77390, 1546, 263, 6, 24, "Message"],
+Cell[77656, 1554, 265, 6, 24, "Message"],
+Cell[77924, 1562, 263, 6, 24, "Message"],
+Cell[78190, 1570, 352, 7, 24, "Message"],
+Cell[78545, 1579, 2358, 47, 265, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[80940, 1631, 862, 21, 36, "Input"],
+Cell[81805, 1654, 395, 8, 24, "Message"],
+Cell[82203, 1664, 394, 8, 24, "Message"],
+Cell[82600, 1674, 397, 8, 24, "Message"],
+Cell[83000, 1684, 338, 7, 24, "Message"],
+Cell[83341, 1693, 263, 6, 24, "Message"],
+Cell[83607, 1701, 263, 6, 24, "Message"],
+Cell[83873, 1709, 263, 6, 24, "Message"],
+Cell[84139, 1717, 353, 7, 24, "Message"],
+Cell[84495, 1726, 2500, 49, 265, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[87032, 1780, 361, 8, 36, "Input"],
+Cell[87396, 1790, 179, 2, 34, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[87612, 1797, 551, 13, 39, "Input"],
+Cell[88166, 1812, 611, 12, 24, "Message"]
+}, Open  ]],
+Cell[88792, 1827, 92, 1, 34, "Input"]
 }
 ]
 *)
